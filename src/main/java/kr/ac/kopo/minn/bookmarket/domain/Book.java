@@ -7,8 +7,6 @@ import lombok.Setter;
 import java.math.BigDecimal;
 
 @Data
-@Setter
-@Getter
 public class Book {
     private String bookId;//도서 ID
     private String name;//도서제목
